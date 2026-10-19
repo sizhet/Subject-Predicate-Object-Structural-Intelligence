@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  If you use or discuss the SPO-SI research framework, please cite this
+  repository and its specific version. A DOI will be added after registration.
+type: software
+title: 'Subject–Predicate–Object Structural Intelligence (SPO-SI): Subject-Centric World Models, Governed Action, and Recursive Structural Evolution'
+authors:
+  - family-names: Tan
+    given-names: Sizhe
+  - name: GPT-Obot
+    affiliation: AI research collaborator
+version: 0.1.0
+date-released: '2026-10-19'
+url: 'https://github.com/sizhet/Subject-Predicate-Object-Structural-Intelligence'
+repository-code: 'https://github.com/sizhet/Subject-Predicate-Object-Structural-Intelligence'
+abstract: >-
+  SPO-SI is an open research incubator proposing subject–predicate–object
+  intelligence loops, subject-centric and shared world models, structural
+  relay contracts, perspective transformations, evidence and counter-evidence
+  exchange, and governed recursive structural evolution. Its initial release
+  presents conceptual architecture, directional hypotheses, and validation
+  plans; it does not claim experimental validation.
+keywords:
+  - structural intelligence
+  - subject-predicate-object
+  - subject-centric world models
+  - shared world models
+  - structural relay
+  - perspective transformation
+  - counter-evidence
+  - governed recursive self-improvement
+  - collective learning
+  - open research
