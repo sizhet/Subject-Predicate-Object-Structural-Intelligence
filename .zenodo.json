@@ -1,0 +1,40 @@
+{
+  "title": "Subject–Predicate–Object Structural Intelligence (SPO-SI): Subject-Centric World Models, Governed Action, and Recursive Structural Evolution",
+  "description": "<p><strong>SPO-SI</strong> is an open research incubator exploring subject–predicate–object intelligence loops that connect intelligent subjects, world models, governed action, feedback, and recursive structural evolution.</p><p>The v0.1.0 release presents a conceptual architecture for subject-centric and shared world models; structural relay and perspective-transformation interfaces; evidence and counter-evidence exchange; evaluation sovereignty; and governed structural self-improvement. It includes six research papers, four proposed relay specifications, open questions, testable hypotheses, a validation roadmap, and architectural figures.</p><p><strong>Research status:</strong> The framework and interfaces are exploratory proposals. This release does not claim experimental validation, proven performance improvements, a complete theory of world models, or a theory of consciousness. The project invites independent tests, counterexamples, and collective structural learning.</p><p><strong>Guiding principle:</strong> SPO-SI is not an attempt to own the world of intelligence, but an attempt to connect intelligent subjects, their models, their actions, and their structural evolution.</p><p>Repository: <a href=\"https://github.com/sizhet/Subject-Predicate-Object-Structural-Intelligence\">GitHub</a>.</p>",
+  "creators": [
+    {
+      "name": "Tan, Sizhe"
+    },
+    {
+      "name": "GPT-Obot",
+      "affiliation": "AI research collaborator"
+    }
+  ],
+  "keywords": [
+    "Structural Intelligence",
+    "Subject-Predicate-Object",
+    "SPO-SI",
+    "Subject-Centric World Models",
+    "Shared World Models",
+    "Structural Relay",
+    "Perspective Transformation",
+    "Evaluation Sovereignty",
+    "Counter-Evidence",
+    "Governed Recursive Self-Improvement",
+    "Collective Learning",
+    "Open Research"
+  ],
+  "license": "Apache-2.0",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "access_right": "open",
+  "version": "0.1.0",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sizhet/Subject-Predicate-Object-Structural-Intelligence",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
