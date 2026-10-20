@@ -14,6 +14,12 @@
 
 This sixth foundational note defines the scientific and engineering boundaries of Subject–Predicate–Object Structural Intelligence (SPO-SI). It examines what the framework does—and does not—claim; locates it relative to agent–environment loops, partially observable decision processes, embodied and enactive cognition, world models, multi-agent systems, and recursive self-improvement; and converts its architectural intuitions into hypotheses with explicit counterexamples, baselines, metrics, and failure conditions. It proposes an open research process in which relay pieces, uncertainty, negative findings, and alternative designs are first-class outputs. The central ambition is not to subsume world-model research but to make subject boundaries, models, actions, evidence, governance, and structural evolution more interoperable and testable.
 
+---
+
+![Fig-008-Open-Intelligence-Relay-and-Collective-Learning.png](../figures/Fig-008-Open-Intelligence-Relay-and-Collective-Learning.png)
+
+---
+
 ## 1. Purpose and Scope
 
 SPO-SI asks how a bounded subject can use evaluative and executable intelligence structures to interact with an environment, update its models, and—under governance—change its own structures. The proposed unit is `(Subject, Predicate, Object)`; the working dynamic loop is:

@@ -14,6 +14,12 @@
 
 Subject–Predicate–Object Structural Intelligence (SPO-SI) treats intelligence as a situated, governed interaction loop rather than merely a collection of computational components. This note studies two extensions: **recursive SPO composition**, in which an object or participant of one loop may itself be an intelligent subject with its own models and policies; and **structural evolution**, in which observations, counter-evidence, and controlled experiments can change not only actions but also the models, scoring structures, interfaces, and policies used to select actions. We distinguish recursive *representation*, recursive *delegation*, and recursive *modification*, and specify governance boundaries for each. We propose a minimal set of relay artifacts, an illustrative lifecycle, failure modes, and falsifiable hypotheses. The intended contribution is a research bridge among subjective structural intelligence, world-model-based agency, control-plane governance, and open collective learning—not a replacement for established agent, control, or reinforcement-learning methods.
 
+---
+
+![Fig-007-Recursive-SPO-and-Governed-Structural-Evolution.png](../figures/Fig-007-Recursive-SPO-and-Governed-Structural-Evolution.png)
+
+---
+
 ## 1. From SPO Units to SPO Systems
 
 A basic SPO unit identifies:

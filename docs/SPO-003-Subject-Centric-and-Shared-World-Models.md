@@ -17,6 +17,10 @@ World models are often discussed as representations of an environment, but an ac
 
 ---
 
+![Fig-004-Subject-Centric-and-Shared-World-Models.png](../figures/Fig-004-Subject-Centric-and-Shared-World-Models.png)
+
+---
+
 ## 1. Motivation: From World Description to World Interaction
 
 A model of the world can serve many purposes: forecasting, simulation, explanation, scientific measurement, coordination, or action selection. These purposes demand different representations and resolutions. A weather simulator, a robotic manipulation model, and a pilot's tactical situational model need not encode the same variables even when they refer to a common physical environment.

@@ -13,6 +13,12 @@ Subject–Predicate–Object Structural Intelligence (SPO-SI) proposes a composi
 
 **Keywords:** structural intelligence; subject; predicate; object; world model; control plane; scoring forest; localization; intelligence relay; structural RSI; collective learning
 
+---
+
+![Fig-003-Canonical-SPO-Intelligence-Unit.png](../figures/Fig-003-Canonical-SPO-Intelligence-Unit.png)
+
+---
+
 ## 1. Scope and research posture
 
 SPO-SI is a **directional research hypothesis and architecture incubator**, not a complete theory of intelligence or a replacement for established world-model research. The objective is to connect specialized intelligence capabilities through contracts and feedback, while preserving subject-specific objectives, action authority, evidence provenance, and uncertainty.

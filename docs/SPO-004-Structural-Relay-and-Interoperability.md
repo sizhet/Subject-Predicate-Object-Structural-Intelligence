@@ -16,6 +16,16 @@ Subject–Predicate–Object Structural Intelligence (SPO-SI) treats intelligenc
 
 **Keywords:** SPO-SI; Structural Relay; interoperability; portable intelligence; subject-centric world model; contracts; provenance; counter-evidence; perspective transformation; collective structural learning.
 
+---
+
+![Fig-005-Structural-Relay-and-Interoperability.png](../figures/Fig-005-Structural-Relay-and-Interoperability.png)
+
+---
+
+![Fig-006-Perspective-Transformation-and-Evidence-Relay.png](../figures/Fig-006-Perspective-Transformation-and-Evidence-Relay.png)
+
+---
+
 ## 1. Why Relay Is a First-Class Research Problem
 
 An isolated intelligent subject may observe, predict, choose, act, and learn. An open intelligence system must also discover external capabilities, interpret their claims, compare their assumptions, and decide whether and how to import them. A syntactically valid message does not guarantee a semantically valid transfer. Two agents may use the same word for different concepts, different coordinate frames for the same environment, or incompatible policies for the same action.

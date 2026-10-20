@@ -19,6 +19,16 @@ SPO-SI is a *systems integration and research interface proposal*, not a claim t
 
 ---
 
+![SPO-SI Grand Architecture](../figures/Fig-001-SPO-SI-Grand-Architecture.png)
+
+*Fig-001. Proposed SPO-SI grand architecture. Conceptual illustration; not a validated implementation.*
+
+---
+
+![Fig-002-From-Structural-Components-to-Intelligence-Loops.png](../figures/Fig-002-From-Structural-Components-to-Intelligence-Loops.png)
+
+---
+
 ## 1. Why a New Organizing Unit?
 
 Prior SI research has asked how intelligence components can be represented, localized, selected, composed, governed, and improved. These questions remain foundational. However, a reusable structural component has no intrinsic answer to four situated questions:
