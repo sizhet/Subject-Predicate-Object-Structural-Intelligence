@@ -42,9 +42,9 @@ The subject/environment loop and partial observability are well-established rese
 
 Let an SPO intelligence loop at time \(t\) be represented as
 
-\[
+$$
 \mathcal{I}_t = (S_t, P_t, O_t, M_t, H_t, G_t),
-\]
+$$
 
 where:
 
@@ -57,15 +57,15 @@ where:
 
 The subject receives observations \(y_t\), forms or updates a belief \(b_t\), selects a permitted action \(a_t\), and observes consequences:
 
-\[
+$$
  y_t \sim p(y_t \mid x_t, S_t), \qquad
  b_t = \operatorname{Update}(b_{t-1}, a_{t-1}, y_t),
-\]
+$$
 
-\[
+$$
  a_t = \operatorname{GovernedPolicy}(b_t, P_t, G_t), \qquad
  x_{t+1} \sim p(x_{t+1}\mid x_t,a_t).
-\]
+$$
 
 Here \(x_t\) is an analytical environment state, not necessarily a state that any subject can directly access. This distinction prevents the mistaken identification of a simulator's full state with the agent's own knowledge.
 
@@ -86,9 +86,9 @@ An SWM should explicitly carry:
 
 A useful abstract transition is
 
-\[
+$$
  b^{(i)}_{t+1} = F_i\big(b^{(i)}_t, a^{(i)}_t, y^{(i)}_{t+1};\theta_i\big),
-\]
+$$
 
 where \(i\) identifies the subject and \(\theta_i\) denotes its modeling assumptions. The superscript matters: two subjects may construct different but rationally useful models of the same situation.
 
@@ -135,13 +135,13 @@ The shared model must not silently override local observations or the subject's 
 
 The central proposal is a **bidirectional relationship**:
 
-\[
+$$
  \mathrm{SWM}_i \xrightarrow{\text{Relay / Alignment / Validation}} \mathrm{ShWM}
-\]
+$$
 
-\[
+$$
  \mathrm{ShWM} \xrightarrow{\text{Localization / Relevance Filtering}} \mathrm{SWM}'_i.
-\]
+$$
 
 The first direction contributes local evidence and hypotheses to a broader model. The second direction returns validated shared knowledge tailored to a subject's context, objectives, permissions, and computational budget.
 
@@ -171,9 +171,9 @@ A control plane decides **what may be imported, trusted, scored, executed, or ch
 
 Two models may disagree merely because they use different frames or abstractions. A transformation should describe:
 
-\[
+$$
  T_{i\rightarrow j}: (M_i, C_i) \mapsto (\widehat{M}_j, U_{i\rightarrow j}),
-\]
+$$
 
 where \(C_i\) is context and \(U_{i\rightarrow j}\) records uncertainty or information loss. Transformations may cover spatial coordinates, temporal resolution, ontology, units, goal relevance, and authority.
 

@@ -24,9 +24,9 @@ This sixth foundational note defines the scientific and engineering boundaries o
 
 SPO-SI asks how a bounded subject can use evaluative and executable intelligence structures to interact with an environment, update its models, and—under governance—change its own structures. The proposed unit is `(Subject, Predicate, Object)`; the working dynamic loop is:
 
-\[
+$$
 \mathcal{L}_t=(S_t,P_t,O_t,M_t,H_t,G_t),
-\]
+$$
 
 where `M` is a working world/self model, `H` a provenance-bearing history, and `G` a governance envelope. These are analytical roles, **not necessarily separate runtime services**. A world model may reside inside `P`; a subject may delegate a part of `P`; and the object may itself be another subject. The formalism is deliberately provisional.
 

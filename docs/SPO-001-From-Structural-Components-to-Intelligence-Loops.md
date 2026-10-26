@@ -62,9 +62,9 @@ This shift is not a rejection of modular SI. It makes modular SI operational wit
 
 We begin with a conceptual triple:
 
-\[
+$$
 \mathcal{I}=(S,P,O)
-\]
+$$
 
 - **S — Subject:** the entity or organized system with a boundary, capabilities, goals, identity/history, permissions, and some locus of evaluation or action authority.
 - **P — Predicate Intelligence:** the executable and evaluative relationship between subject and world, including perception, representation, world modeling, scoring, planning, policy selection, control, and learning.
@@ -76,30 +76,30 @@ We begin with a conceptual triple:
 
 The static triple is insufficient for learning and evolution. A working formulation is:
 
-\[
+$$
 \mathcal{I}_t=(S_t,P_t,O_t,M_t,H_t)
-\]
+$$
 
 where \(M_t\) is the subject's world-model state and \(H_t\) its relevant history, evidence, and provenance. The model and history are made explicit for engineering clarity; they may also be viewed as internally hosted substructures of \(S\) or \(P\).
 
 At time \(t\), a subject receives an observation, selects an action, and updates its internal structures:
 
-\[
+$$
 y_t=\operatorname{Observe}(S_t,O_t)
-\]
+$$
 
-\[
+$$
 a_t=\operatorname{Policy}(S_t,P_t,M_t,y_t)
-\]
+$$
 
-\[
+$$
 O_{t+1}\sim T(\cdot\mid O_t,a_t)
-\]
+$$
 
-\[
+$$
 (M_{t+1},P_{t+1},H_{t+1})
 =\operatorname{Update}(M_t,P_t,H_t,y_t,a_t,y_{t+1})
-\]
+$$
 
 The transition kernel \(T\) expresses environmental dynamics and may be unknown; the equations are **schematic research notation**, not an implemented universal algorithm. In multi-agent settings, other agents' actions also influence the transition.
 
@@ -153,9 +153,9 @@ The modules need not share one representation or one model family. LLMs, symboli
 
 A world model need not be a complete, detached map of reality. For an acting subject, it can be an uncertainty-aware, action-conditioned predictive representation:
 
-\[
+$$
 M_S:(b_t,a_t)\mapsto \widehat{b}_{t+1}
-\]
+$$
 
 Here \(b_t\) is a belief state rather than necessarily the true environment state. A useful model predicts what may happen under candidate actions and what new observations might follow.
 
@@ -197,9 +197,9 @@ UCPSF scoring operators and control planes may help make these tradeoffs explici
 
 An object may itself be an intelligent subject. Two interacting systems can therefore be represented schematically as:
 
-\[
+$$
 SPO_A\leftrightarrow SPO_B
-\]
+$$
 
 A collective system may coordinate multiple SPO units through shared contracts, delegated tasks, and contested or negotiated scoring criteria. This does not imply that all agents share the same goals or that a collective automatically possesses a unified subject identity.
 

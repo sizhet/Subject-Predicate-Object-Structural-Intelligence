@@ -30,25 +30,25 @@ A basic SPO unit identifies:
 
 A static triple `(S, P, O)` is useful for naming relationships, but a functioning system needs temporal state, feedback, and governance. We therefore use the working notation
 
-\[
+$$
 \mathcal{L}_t=(S_t,P_t,O_t,M_t,H_t,G_t),
-\]
+$$
 
 where `M` is the subject's working world/self model, `H` is provenance-bearing history, and `G` is the applicable governance envelope. These are **analytical roles**, not necessarily independent software modules. In particular, `M` can be a substructure used by `P`, and `G` may be distributed across multiple control planes.
 
 A generic transition is
 
-\[
+$$
 (y_t,b_t) = \operatorname{ObserveAndInfer}(S_t,O_t,M_t),
-\]
+$$
 
-\[
+$$
 a_t = \operatorname{AuthorizeAndSelect}(S_t,P_t,b_t,G_t),
-\]
+$$
 
-\[
+$$
 (O_{t+1},M_{t+1},H_{t+1}) = \operatorname{InteractAndUpdate}(O_t,M_t,H_t,a_t,y_{t+1}).
-\]
+$$
 
 The subject's internal mechanisms need not change on every step. **Structural evolution** occurs only when an additional, explicitly governed process accepts a change to `P`, `M`, `S`, or their interfaces.
 
@@ -74,9 +74,9 @@ A subject makes a representation of its **own** models, policies, capabilities, 
 
 Let an SPO system be represented abstractly by `L_i`. A composition operator creates a higher-level coordination arrangement:
 
-\[
+$$
 \mathcal{C}=\operatorname{Compose}(\mathcal{L}_1,\ldots,\mathcal{L}_n;K,R,G),
-\]
+$$
 
 where `K` denotes interface contracts, `R` denotes relay and translation rules, and `G` denotes cross-system governance. The result is not automatically a new conscious subject or even a single autonomous agent; it may be a workflow, institution, team, or temporary control arrangement.
 
@@ -116,9 +116,9 @@ We distinguish:
 
 A perspective transform `T_{i→j}` should carry more than coordinates. It may need to translate semantics, time horizon, uncertainty, action affordances, and access rights:
 
-\[
+$$
 (M_j',U_j',\Pi_j') = T_{i\to j}(M_i,U_i,\Pi_i;K_{ij}),
-\]
+$$
 
 where `U` represents uncertainty, `Π` represents provenance, and `K` is a declared compatibility contract. The transform may fail or return only partial equivalence; there is no general guarantee of lossless conversion.
 
@@ -154,13 +154,13 @@ A proposed recursive improvement should pass through a sequence of explicit gate
 
 A compact decision rule is
 
-\[
+$$
 \operatorname{Accept}(\Delta) =
 \operatorname{ValidContract}(\Delta)
 \land \operatorname{PassSafety}(\Delta)
 \land \operatorname{EvidenceSupportsBenefit}(\Delta)
 \land \operatorname{Authorized}(\Delta).
-\]
+$$
 
 The rule is a governance template, not a mathematically complete safety proof. `EvidenceSupportsBenefit` depends on the selected evaluation design and cannot be inferred from a single favorable score.
 

@@ -39,17 +39,17 @@ A relay succeeds only relative to an explicitly stated level and purpose. The de
 
 Let an SPO instance at time *t* be represented abstractly as
 
-\[
+$$
 I_t = (S_t, P_t, O_t, M_t, H_t, G_t),
-\]
+$$
 
 where *S* is the subject and its capabilities, *P* its predicate intelligence (perception, valuation, planning, and control), *O* its objects/environment, *M* its world-model beliefs, *H* its history/evidence, and *G* its governance constraints. This notation is an architectural abstraction, not a proven sufficient formalization of intelligence.
 
 A relay event may introduce a candidate piece *r* from subject *A* into subject *B*:
 
-\[
+$$
 (r, c_A) \xrightarrow{\text{relay}} (\hat r, c_B),
-\]
+$$
 
 where *c* denotes the local context and \(\hat r\) is a mapped, possibly lossy interpretation. Recipient *B* must distinguish **what A asserted**, **what transformation occurred**, and **what B accepted**. No transfer should silently imply that B has adopted A's objectives, truth claims, or authority.
 
@@ -170,9 +170,9 @@ Consider two navigation models: one expresses position in meters in a robot-loca
 
 Define an illustrative transform:
 
-\[
+$$
 T_{A\to B}: (r_A, c_A) \mapsto (r_B, c_B, L_{A\to B}),
-\]
+$$
 
 where \(L_{A\to B}\) records lost information, added assumptions, and residual ambiguity. Invertibility is **not** presumed. Transformations must preserve traceable source references even when the recipient stores a compressed representation.
 
