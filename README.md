@@ -113,18 +113,11 @@ SPO-SI treats public hypotheses, counterexamples, interface sketches, and reprod
 
 ## 5. Figure gallery
 
-The following filenames define the planned **eight-figure set**. Keep these individual image files in `figures/` when assembling the repository; a composite overview image is not a substitute for eight separately named PNGs.
-
-| Figure | Topic |
-|---|---|
-| Fig-001 | SPO-SI Grand Architecture |
-| Fig-002 | From Structural Components to Intelligence Loops |
-| Fig-003 | Canonical SPO Intelligence Unit |
-| Fig-004 | Subject-Centric and Shared World Models |
-| Fig-005 | Structural Relay and Interoperability |
-| Fig-006 | Perspective Transformation and Evidence Relay |
-| Fig-007 | Recursive SPO and Governed Structural Evolution |
-| Fig-008 | Open Intelligence Relay and Collective Learning |
+The SPO-SI research framework is illustrated
+through eight architectural figures.
+The canonical PNG files are maintained in
+the `figures/` directory and indexed in
+`FIGURE-INDEX.md`.
 
 ![Open Intelligence Relay and Collective Learning](figures/Fig-008-Open-Intelligence-Relay-and-Collective-Learning.png)
 
@@ -169,11 +162,14 @@ These connections identify a research lineage and opportunities for reuse, not e
 
 ## 9. Release, citation, and license
 
-**Current status:** v0.1.0 exploratory manuscript collection. Before DOI registration, review cross-file links, figure assets, references, author metadata, and repository license.
+This repository is released as an exploratory
+research collection. Its hypotheses, architectural
+proposals, and draft contracts are provided for
+independent examination and future validation.
 
-See [CITATION.cff](CITATION.cff) for citation metadata when added. A DOI should be inserted only **after** it is actually assigned; no DOI is claimed here.
+See [CITATION.cff](CITATION.cff) for citation metadata.
 
-License terms are governed by the repository's actual `LICENSEE.txt` file. Do not infer a license solely from this README.
+License terms are governed by the repository's actual `LICENSE.txt` file. Do not infer a license solely from this README.
 
 ---
 
