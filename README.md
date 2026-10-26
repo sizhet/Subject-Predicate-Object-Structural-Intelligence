@@ -173,7 +173,7 @@ These connections identify a research lineage and opportunities for reuse, not e
 
 See [CITATION.cff](CITATION.cff) for citation metadata when added. A DOI should be inserted only **after** it is actually assigned; no DOI is claimed here.
 
-License terms are governed by the repository's actual `LICENSE` file. Do not infer a license solely from this README.
+License terms are governed by the repository's actual `LICENSEE.txt` file. Do not infer a license solely from this README.
 
 ---
 

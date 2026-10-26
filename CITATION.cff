@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: >-
   If you use or discuss the SPO-SI research framework, please cite this
   repository and its specific version. A DOI will be added after registration.
-type: software
+type: generic
 title: 'Subject–Predicate–Object Structural Intelligence (SPO-SI): Subject-Centric World Models, Governed Action, and Recursive Structural Evolution'
 authors:
   - family-names: Tan
@@ -10,7 +10,7 @@ authors:
   - name: GPT-Obot
     affiliation: AI research collaborator
 version: 0.1.0
-date-released: '2026-10-19'
+date-released: '2026-10-26'
 url: 'https://github.com/sizhet/Subject-Predicate-Object-Structural-Intelligence'
 repository-code: 'https://github.com/sizhet/Subject-Predicate-Object-Structural-Intelligence'
 abstract: >-

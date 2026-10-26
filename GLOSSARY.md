@@ -5,7 +5,7 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** v0.1.0  
 **Status:** Open Research Incubator — Exploratory Definitions, Not a Validated Standard  
-**Updated:** 2026-10-19
+**Updated:** 2026-10-26
 
 > **Research position:** SPO-SI is not an attempt to own the world of intelligence, but an attempt to connect intelligent subjects, their models, their actions, and their structural evolution.
 
@@ -362,4 +362,4 @@ New terms should be proposed with (1) a precise definition, (2) scope and non-go
 **Citation guidance:** Cite the specific version of the SPO-SI repository or its individual research notes. No DOI is asserted here until a persistent identifier is actually issued.
 
 **Authors:** Sizhe Tan & GPT-Obot  
-**License:** Refer to the repository's `LICENSE` file for the applicable terms.
+**License:** Refer to the repository's `LICENSE.txt` file for the applicable terms.

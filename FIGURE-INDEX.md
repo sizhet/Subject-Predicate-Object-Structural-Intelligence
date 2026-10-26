@@ -5,8 +5,6 @@
 **Status:** Open Research Incubator — Directional Hypotheses and Architecture Notes  
 **Repository:** [Subject-Predicate-Object-Structural-Intelligence](https://github.com/sizhet/Subject-Predicate-Object-Structural-Intelligence)
 
-> **Figure availability note:** The eight figures below are the planned canonical **individual** PNG assets. The initial visual was generated as a combined eight-panel infographic. Do not treat the eight individual image paths as confirmed until the PNGs have been exported, checked for legibility, and committed under `figures/`. The paths below are the intended repository locations.
-
 ## 1. Figure Catalog
 
 | Figure | Title | Canonical file | Main topic |
@@ -28,15 +26,11 @@
 
 **Key elements:** Subject; Predicate intelligence; Object/environment; subject-centric world model; shared model; control plane; feedback; relay; structural evolution.
 
-**Suggested placement:** `README.md` (architecture overview); `docs/SPO-002-Subject-Predicate-Object-Architecture.md` (after canonical architecture introduction).
-
 ### Fig-002 — From Structural Components to Intelligence Loops
 
 **Caption:** The proposed transition from reusable structural intelligence components to an integrated, time-dependent intelligence loop with observation, action, feedback, learning, and possible structural growth.
 
 **Key elements:** Structural components; composition; subject; environment; observation; action; feedback; adaptation.
-
-**Suggested placement:** `docs/SPO-001-From-Structural-Components-to-Intelligence-Loops.md` (after the discussion of the component-to-loop transition).
 
 ### Fig-003 — Canonical SPO Intelligence Unit
 
@@ -44,15 +38,11 @@
 
 **Key elements:** Subject boundary and capabilities; Predicate mechanisms; Object/environment; world model; historical state; policy constraints.
 
-**Suggested placement:** `docs/SPO-002-Subject-Predicate-Object-Architecture.md` (after the formal SPO definition); optionally `relay/RELAY-001-Subject-Profile.md` (subject-boundary discussion).
-
 ### Fig-004 — Subject-Centric and Shared World Models
 
 **Caption:** Multiple subject-centric world models exchange selected representations with a shared world model through localization, fusion, validation, and reverse projection, without assuming an infallible objective viewpoint.
 
 **Key elements:** Local models; shared model; bidirectional localization; fusion; model disagreement; uncertainty.
-
-**Suggested placement:** `docs/SPO-003-Subject-Centric-and-Shared-World-Models.md` (after the dual-world-model proposal); `relay/RELAY-002-World-Model-Piece.md` (relay context).
 
 ### Fig-005 — Structural Relay and Interoperability
 
@@ -60,15 +50,11 @@
 
 **Key elements:** Subject Profile; World Model Piece; Perspective Transformation; Action Contract; Scoring Evidence; Counter-Evidence Record.
 
-**Suggested placement:** `docs/SPO-004-Structural-Relay-and-Interoperability.md` (relay architecture); `relay/RELAY-001-Subject-Profile.md` and `relay/RELAY-002-World-Model-Piece.md` (interface context).
-
 ### Fig-006 — Perspective Transformation and Evidence Relay
 
 **Caption:** Perspective transformation between distinct subject and model contexts, retaining source provenance, semantic constraints, uncertainty, OTHERS, and evidence/counter-evidence rather than silently equating incompatible representations.
 
 **Key elements:** Source and target perspective; transform contract; uncertainty; provenance; contradiction; counter-evidence.
-
-**Suggested placement:** `relay/RELAY-003-Perspective-Transformation.md` (transformation architecture); `relay/RELAY-004-Evidence-and-Counter-Evidence.md` (evidence exchange).
 
 ### Fig-007 — Recursive SPO and Governed Structural Evolution
 
@@ -76,15 +62,11 @@
 
 **Key elements:** Self-model; candidate change; scoring; adversarial sandbox; approval; controlled deployment; monitoring.
 
-**Suggested placement:** `docs/SPO-005-Recursive-SPO-and-Structural-Evolution.md` (governed recursive evolution).
-
 ### Fig-008 — Open Intelligence Relay and Collective Learning
 
 **Caption:** Open research artifacts connect hypotheses, models, experiments, evidence, counter-evidence, and independent researchers through a traceable relay process that can support collective structural learning.
 
 **Key elements:** Public repository; research contributors; hypotheses; validation; criticism; revisions; reusable research pieces.
-
-**Suggested placement:** `README.md` (open research mission); `docs/SPO-006-Research-Boundaries-and-Open-Hypotheses.md` (research participation); `research/VALIDATION-ROADMAP.md` (collective validation phase).
 
 ## 3. Article-to-Figure Placement Matrix
 

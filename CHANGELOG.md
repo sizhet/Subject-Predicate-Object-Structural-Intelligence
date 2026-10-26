@@ -15,7 +15,7 @@ The format follows the spirit of [Keep a Changelog](https://keepachangelog.com/e
 - Add baseline implementations and reproducible experiments only when actually available.
 - Collect external critique, counter-evidence, and independent replication results with explicit provenance.
 
-## [0.1.0] - 2026-10-19
+## [0.1.0] - 2026-10-26
 
 ### Added — Research foundations
 - `docs/SPO-001-From-Structural-Components-to-Intelligence-Loops.md` — motivation for moving from isolated structural intelligence components to subject–environment intelligence loops.
