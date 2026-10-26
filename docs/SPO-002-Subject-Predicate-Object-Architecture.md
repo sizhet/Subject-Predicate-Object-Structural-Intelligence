@@ -15,7 +15,9 @@ Subject–Predicate–Object Structural Intelligence (SPO-SI) proposes a composi
 
 ---
 
-![Fig-003-Canonical-SPO-Intelligence-Unit.png](../figures/Fig-003-Canonical-SPO-Intelligence-Unit.png)
+![SPO-SI Grand Architecture](../figures/Fig-001-SPO-SI-Grand-Architecture.png)
+
+*Fig-001. Proposed SPO-SI grand architecture. Conceptual illustration; not a validated implementation.*
 
 ---
 
@@ -29,9 +31,9 @@ The subject–predicate–object terminology is an engineering analogy, not an a
 
 Define an SPO unit at time `t` as:
 
-\[
+$$
 \mathcal U_t = (S_t, P_t, O_t; M_t, H_t, G_t).
-\]
+$$
 
 The semicolon separates the three organizing roles from supporting runtime state:
 
@@ -78,28 +80,39 @@ The object description distinguishes:
 
 An object may itself be another SPO unit; composition must not erase its autonomy or permissions.
 
+---
+
+![Fig-003-Canonical-SPO-Intelligence-Unit.png](../figures/Fig-003-Canonical-SPO-Intelligence-Unit.png)
+
+---
+
 ## 3. Dynamic intelligence loop
 
 A minimal operational loop is:
 
-\[
+$$
  y_t \sim \operatorname{Observe}(O_t,S_t),
-\]
-\[
+$$
+
+$$
  b_t = \operatorname{UpdateBelief}(M_t,H_t,y_t),
-\]
-\[
+$$
+
+$$
  C_t = \operatorname{Propose}(P_t,b_t,S_t),
-\]
-\[
+$$
+
+$$
  a_t = \operatorname{AuthorizeAndSelect}(C_t,G_t,S_t),
-\]
-\[
+$$
+
+$$
  O_{t+1} \sim T(O_t,a_t,\xi_t),
-\]
-\[
+$$
+
+$$
  (M_{t+1},H_{t+1},P_{t+1}) = \operatorname{Learn}(b_t,H_t,P_t,a_t,y_{t+1}).
-\]
+$$
 
 Here `b_t` is a belief or task-relevant estimate, `C_t` a set of candidate actions, `T` an environment transition process, and `ξ_t` external disturbance. These equations are **abstract interface relationships**, not a validated universal learning algorithm. Updating `P` may require a separate approval process and need not occur on every step.
 
@@ -130,12 +143,13 @@ A subject-centric world model `M_i` represents what subject `i` can infer and ne
 
 Two optional transformations are:
 
-\[
+$$
  M_* = \operatorname{Fuse}(M_1,\ldots,M_n;\text{provenance, calibration}),
-\]
-\[
+$$
+
+$$
  M_i' = \operatorname{Localize}(M_*, S_i,\text{task}_i).
-\]
+$$
 
 These transformations can be partial or unavailable. A shared model may also be built directly from external measurements or physical simulators rather than by fusing subject models. **Subject-first modeling is a testable engineering preference for some workloads, not a universal historical or computational law.**
 
@@ -158,10 +172,10 @@ The scoring forest can evaluate candidate trajectories from several perspectives
 
 One illustrative choice rule is:
 
-\[
+$$
  a_t^* \in \arg\max_{a\in\mathcal A_t^{\mathrm{authorized}}}
  \operatorname{Score}_{S_t,G_t}(a\mid b_t,M_t),
-\]
+$$
 
 subject to hard constraints and explicit handling of missing evidence. The formula is illustrative; in some domains multi-objective Pareto selection, robust optimization, or human review is preferable.
 
@@ -205,15 +219,15 @@ This is a **discussion artifact**, not a finalized interoperability standard. Ex
 
 An object can contain another acting subject:
 
-\[
+$$
  \mathcal U_A \leftrightarrow \mathcal U_B.
-\]
+$$
 
 A collective unit may coordinate multiple participants:
 
-\[
+$$
  \mathcal U_{\mathrm{collective}} = \operatorname{Compose}(\mathcal U_1,\ldots,\mathcal U_n;G_{\mathrm{collective}}).
-\]
+$$
 
 Composition must explicitly model conflicting objectives, permissions, information asymmetry, trust, and the possibility that participants refuse delegation. A collective's world model is not automatically identical to any member's model.
 

@@ -5,7 +5,7 @@
 **Document:** `research/VALIDATION-ROADMAP.md`  
 **Version:** v0.1.0 — Exploratory Research Incubator  
 **Authors:** Sizhe Tan & GPT-Obot  
-**Date:** 2026-10-19  
+**Date:** 2026-10-26  
 **Status:** Proposed research plan; no empirical results are claimed.
 
 > SPO-SI is not an attempt to own the world of intelligence, but an attempt to connect intelligent subjects, their models, their actions, and their structural evolution.
@@ -21,6 +21,12 @@ The roadmap has five objectives:
 3. Establish minimal, auditable contracts for cross-system structural relay.
 4. Evaluate counter-evidence, uncertainty preservation, and governance in recursive adaptation.
 5. Make negative results, interfaces, datasets, and reproducibility artifacts reusable by external researchers.
+
+---
+
+![Open Intelligence Relay and Collective Learning](../figures/Fig-008-Open-Intelligence-Relay-and-Collective-Learning.png)
+
+---
 
 ## 2. Research objects and boundaries
 

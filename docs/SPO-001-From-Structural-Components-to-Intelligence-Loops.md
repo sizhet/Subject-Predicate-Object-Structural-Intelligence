@@ -5,7 +5,7 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Status:** Open Research Incubator — Directional Hypothesis / Architecture Note  
 **Version:** v0.1.0  
-**Date:** 2026-10-19
+**Date:** 2026-10-26
 
 > **Research stance:** SPO-SI is not an attempt to own the world of intelligence, but an attempt to connect intelligent subjects, their models, their actions, and their structural evolution.
 
@@ -22,10 +22,6 @@ SPO-SI is a *systems integration and research interface proposal*, not a claim t
 ![SPO-SI Grand Architecture](../figures/Fig-001-SPO-SI-Grand-Architecture.png)
 
 *Fig-001. Proposed SPO-SI grand architecture. Conceptual illustration; not a validated implementation.*
-
----
-
-![Fig-002-From-Structural-Components-to-Intelligence-Loops.png](../figures/Fig-002-From-Structural-Components-to-Intelligence-Loops.png)
 
 ---
 
@@ -55,6 +51,12 @@ Structural Components
 ```
 
 This shift is not a rejection of modular SI. It makes modular SI operational within a subject–world relationship.
+
+---
+
+![Fig-002-From-Structural-Components-to-Intelligence-Loops.png](../figures/Fig-002-From-Structural-Components-to-Intelligence-Loops.png)
+
+---
 
 ## 2. The SPO Hypothesis
 
@@ -313,4 +315,4 @@ This note draws on the authors' prior open research programs:
 
 **Citation status:** Working paper / directional hypothesis, v0.1.0. A persistent DOI may be added after release; none is claimed here.
 
-**License:** See repository `LICENSE` (not assumed in this document).
+**License:** See repository `LICENSEE.txt` (not assumed in this document).

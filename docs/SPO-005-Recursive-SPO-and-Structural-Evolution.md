@@ -5,7 +5,7 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** v0.1.0  
 **Status:** Open Research Incubator — Directional Hypothesis / Architecture Note  
-**Date:** 2026-10-19  
+**Date:** 2026-10-26  
 **Keywords:** SPO-SI; recursive composition; structural evolution; self-model; structural RSI; world models; governance; counter-evidence; intelligence relay; collective learning
 
 > **Research status.** This document proposes architectural hypotheses and research interfaces. It does not claim to establish a new theory of consciousness, demonstrate autonomous recursive self-improvement, or validate performance improvements. Its purpose is to make the ideas inspectable, contestable, and reusable.
@@ -363,4 +363,4 @@ These references are starting points for comparison; a systematic literature rev
 
 **Citation guidance:** Cite the archived release/DOI once available. Before DOI assignment, reference the project title, authors, version, date, and repository URL.
 
-**License:** Refer to the repository's `LICENSE` file; this note does not independently assert a license.
+**License:** Refer to the repository's `LICENSEE.txt` file; this note does not independently assert a license.

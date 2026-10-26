@@ -5,7 +5,7 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** v0.1.0  
 **Status:** Open Research Incubator — Research Boundaries / Falsifiable Hypotheses  
-**Date:** 2026-10-19  
+**Date:** 2026-10-26  
 **Companion notes:** SPO-001 through SPO-005
 
 > **Epistemic statement.** SPO-SI is a proposed organizing architecture and research program. Its integrated performance, novelty relative to established methods, and usefulness of the proposed relay interfaces remain to be demonstrated. This note separates established background, design choices, speculative hypotheses, and empirical claims.

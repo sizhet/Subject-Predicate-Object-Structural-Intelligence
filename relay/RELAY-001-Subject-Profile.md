@@ -13,6 +13,16 @@ A Subject Profile is a portable, scoped description of an acting subject's ident
 
 > **Relay principle:** Exchange only the subject information needed for a specific task, with explicit provenance, uncertainty, permissions, and revocation semantics.
 
+---
+
+![Fig-003-Canonical-SPO-Intelligence-Unit.png](../figures/Fig-003-Canonical-SPO-Intelligence-Unit.png)
+
+---
+
+![Fig-005-Structural-Relay-and-Interoperability.png](../figures/Fig-005-Structural-Relay-and-Interoperability.png)
+
+---
+
 ## 1. Motivation and Scope
 
 SPO-SI models a dynamic relationship between a Subject (S), Predicate intelligence mechanisms (P), and an Object/environment (O). Existing SI components—Localization, Scoring Forests, Control Planes, Calling Graphs, Portable Intelligence Units, and Counter-Evidence—become easier to compose if each consumer can ask: **whose capabilities, observations, objectives, and authority does this computation serve?**

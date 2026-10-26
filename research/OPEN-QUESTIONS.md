@@ -4,7 +4,7 @@
 **Research status:** Open research incubator; directional hypotheses, not validated universal claims  
 **Version:** v0.1.0  
 **Authors:** Sizhe Tan & GPT-Obot  
-**Last updated:** 2026-10-19
+**Last updated:** 2026-10-26
 
 > **SPO-SI is not an attempt to own the world of intelligence, but an attempt to connect intelligent subjects, their models, their actions, and their structural evolution.**
 

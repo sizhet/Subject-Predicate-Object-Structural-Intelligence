@@ -5,7 +5,7 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** v0.1.0  
 **Status:** Open Research Incubator — Directional Hypotheses and Interface Proposals  
-**Date:** 2026-10-19  
+**Date:** 2026-10-26  
 **Companion papers:** SPO-001, SPO-002, SPO-003  
 
 > **Research boundary.** This document proposes interfaces and falsifiable architectural hypotheses. It is not a claim of an implemented protocol, validated performance advantage, or exclusive invention of agent communication, model exchange, or interoperability.
@@ -19,10 +19,6 @@ Subject–Predicate–Object Structural Intelligence (SPO-SI) treats intelligenc
 ---
 
 ![Fig-005-Structural-Relay-and-Interoperability.png](../figures/Fig-005-Structural-Relay-and-Interoperability.png)
-
----
-
-![Fig-006-Perspective-Transformation-and-Evidence-Relay.png](../figures/Fig-006-Perspective-Transformation-and-Evidence-Relay.png)
 
 ---
 

@@ -11,6 +11,16 @@
 
 A World Model Piece (WMP) is a bounded, provenance-aware, uncertainty-bearing representation of some aspect of an environment that another intelligent subject may discover, inspect, localize, test, and selectively use. The proposal deliberately avoids requiring a universal world-model implementation. It specifies a **relay boundary** between heterogeneous subject-centric and shared models, including the semantics of the modeled claim, the subject perspective, the temporal and spatial scope, evidence, uncertainty, transformation dependencies, and permitted uses. This note offers a minimal contract, a worked YAML example, relay lifecycle, validation criteria, counterexamples, and open research questions. All performance benefits remain hypotheses to be tested.
 
+---
+
+![Fig-004-Subject-Centric-and-Shared-World-Models.png](../figures/Fig-004-Subject-Centric-and-Shared-World-Models.png)
+
+---
+
+![Fig-005-Structural-Relay-and-Interoperability.png](../figures/Fig-005-Structural-Relay-and-Interoperability.png)
+
+---
+
 ## 1. Research Position and Non-Goals
 
 SPO-SI does not seek to replace physics simulators, spatial foundation models, POMDP belief states, learned dynamics, robotics maps, or causal models. Instead, it asks which **portable pieces** of such models can be exchanged without erasing their assumptions. A WMP is neither a complete World Model nor a claim to an objective, omniscient representation. It is a partial model artifact or a reference to one, together with a machine-inspectable contract.

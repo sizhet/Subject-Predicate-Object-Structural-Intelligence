@@ -5,7 +5,7 @@
 **Authors:** Sizhe Tan & GPT-Obot  
 **Version:** v0.1.0  
 **Status:** Open Research Incubator — Directional Hypotheses and Architecture Notes  
-**Date:** 2026-10-19
+**Date:** 2026-10-26
 
 > **Research position.** SPO-SI is not an attempt to own the world of intelligence, but an attempt to connect intelligent subjects, their models, their actions, and their structural evolution.
 
@@ -357,5 +357,5 @@ The central research question is whether such an architecture can make world mod
 - `research/TESTABLE-HYPOTHESES.md` — experimental criteria and baselines.
 - `research/RELATED-WORK.md` — comparisons with established world-model research.
 
-**License:** Refer to the repository's `LICENSE` file.  
+**License:** Refer to the repository's `LICENSEE.txt` file.  
 **Citation:** Refer to the repository's `CITATION.cff` when available.

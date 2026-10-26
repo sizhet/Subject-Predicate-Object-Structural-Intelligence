@@ -16,6 +16,12 @@ Intelligence Relay requires more than moving models, conclusions, or policies be
 
 **Keywords:** structural intelligence; SPO-SI; evidence relay; counter-evidence; provenance; uncertainty; world models; interoperability; structural learning; governance; anti-Goodhart.
 
+---
+
+![Fig-006-Perspective-Transformation-and-Evidence-Relay.png](../figures/Fig-006-Perspective-Transformation-and-Evidence-Relay.png)
+
+---
+
 ## 1. Why Evidence Must Travel with Intelligence
 
 A relay may deliver a World Model Piece that predicts an obstacle is absent. Another robot may observe the obstacle. Without structured evidence, the recipient has only two incompatible outputs. It cannot reliably distinguish stale observations, differing coordinate frames, sensor faults, incompatible assumptions, or genuine environmental change.

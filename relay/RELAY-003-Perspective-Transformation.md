@@ -11,6 +11,12 @@
 
 A **Perspective Transformation (PT)** is a bounded, inspectable operation that attempts to translate a representation produced under one subject's observational, semantic, temporal, action, or governance perspective into a representation usable by another subject. The goal is **not** to establish an omniscient viewpoint or guarantee that two subjects mean the same thing. The goal is to make the assumptions, transformations, residual disagreements, uncertainty, provenance, and permissions of a cross-perspective relay explicit. This note proposes a minimal PT contract, a staged transformation lifecycle, a worked example, failure classifications, validation criteria, and falsifiable hypotheses. It connects subject-centric and shared World Models to the broader SPO-SI program without assuming a universal model architecture.
 
+---
+
+![Fig-006-Perspective-Transformation-and-Evidence-Relay.png](../figures/Fig-006-Perspective-Transformation-and-Evidence-Relay.png)
+
+---
+
 ## 1. Motivation: Perspective Is Part of the Meaning
 
 Two subjects may observe the same environment yet maintain different internal models because their sensors, positions, histories, goals, bodies, coordinate systems, vocabulary, and action capabilities differ. Even when their data fields have identical names, the claims may not be interchangeable.

@@ -5,7 +5,7 @@
 **Version:** v0.1.0 — Open Research Incubator  
 **Authors:** Sizhe Tan & GPT-Obot  
 **Status:** Research positioning and interoperability notes; not a systematic literature review  
-**Date:** 2026-10-19
+**Date:** 2026-10-26
 
 ## Abstract
 
