@@ -31,9 +31,9 @@ The term *predicate* is used here as an **architectural metaphor** for an execut
 
 A static triple describes a relationship; an intelligent agent needs an ongoing loop. A useful exploratory state description is:
 
-\[
+$$
 \mathcal{I}_t = (S_t, P_t, O_t, M_t, H_t)
-\]
+$$
 
 where **M** denotes a world-model representation and **H** denotes relevant history and evidence. Observations inform beliefs and action selection; actions affect the environment; feedback can update models, policies, and—under explicit constraints—structural components.
 
