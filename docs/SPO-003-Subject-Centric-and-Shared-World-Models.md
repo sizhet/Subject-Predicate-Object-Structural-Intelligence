@@ -59,11 +59,11 @@ The subject receives observations \(y_t\), forms or updates a belief \(b_t\), se
 
 $$
  y_t \sim p(y_t \mid x_t, S_t), \qquad
- b_t = \operatorname{Update}(b_{t-1}, a_{t-1}, y_t),
+ b_t = operatorname{Update}(b_{t-1}, a_{t-1}, y_t),
 $$
 
 $$
- a_t = \operatorname{GovernedPolicy}(b_t, P_t, G_t), \qquad
+ a_t = operatorname{GovernedPolicy}(b_t, P_t, G_t), \qquad
  x_{t+1} \sim p(x_{t+1}\mid x_t,a_t).
 $$
 

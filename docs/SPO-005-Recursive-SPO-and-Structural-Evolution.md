@@ -39,15 +39,15 @@ where `M` is the subject's working world/self model, `H` is provenance-bearing h
 A generic transition is
 
 $$
-(y_t,b_t) = \operatorname{ObserveAndInfer}(S_t,O_t,M_t),
+(y_t,b_t) = operatorname{ObserveAndInfer}(S_t,O_t,M_t),
 $$
 
 $$
-a_t = \operatorname{AuthorizeAndSelect}(S_t,P_t,b_t,G_t),
+a_t = operatorname{AuthorizeAndSelect}(S_t,P_t,b_t,G_t),
 $$
 
 $$
-(O_{t+1},M_{t+1},H_{t+1}) = \operatorname{InteractAndUpdate}(O_t,M_t,H_t,a_t,y_{t+1}).
+(O_{t+1},M_{t+1},H_{t+1}) = operatorname{InteractAndUpdate}(O_t,M_t,H_t,a_t,y_{t+1}).
 $$
 
 The subject's internal mechanisms need not change on every step. **Structural evolution** occurs only when an additional, explicitly governed process accepts a change to `P`, `M`, `S`, or their interfaces.
@@ -75,7 +75,7 @@ A subject makes a representation of its **own** models, policies, capabilities, 
 Let an SPO system be represented abstractly by `L_i`. A composition operator creates a higher-level coordination arrangement:
 
 $$
-\mathcal{C}=\operatorname{Compose}(\mathcal{L}_1,\ldots,\mathcal{L}_n;K,R,G),
+\mathcal{C}=operatorname{Compose}(\mathcal{L}_1,\ldots,\mathcal{L}_n;K,R,G),
 $$
 
 where `K` denotes interface contracts, `R` denotes relay and translation rules, and `G` denotes cross-system governance. The result is not automatically a new conscious subject or even a single autonomous agent; it may be a workflow, institution, team, or temporary control arrangement.
@@ -155,11 +155,11 @@ A proposed recursive improvement should pass through a sequence of explicit gate
 A compact decision rule is
 
 $$
-\operatorname{Accept}(\Delta) =
-\operatorname{ValidContract}(\Delta)
-\land \operatorname{PassSafety}(\Delta)
-\land \operatorname{EvidenceSupportsBenefit}(\Delta)
-\land \operatorname{Authorized}(\Delta).
+operatorname{Accept}(\Delta) =
+operatorname{ValidContract}(\Delta)
+\land operatorname{PassSafety}(\Delta)
+\land operatorname{EvidenceSupportsBenefit}(\Delta)
+\land operatorname{Authorized}(\Delta).
 $$
 
 The rule is a governance template, not a mathematically complete safety proof. `EvidenceSupportsBenefit` depends on the selected evaluation design and cannot be inferred from a single favorable score.

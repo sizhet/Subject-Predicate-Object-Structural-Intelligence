@@ -85,11 +85,11 @@ where \(M_t\) is the subject's world-model state and \(H_t\) its relevant histor
 At time \(t\), a subject receives an observation, selects an action, and updates its internal structures:
 
 $$
-y_t=\operatorname{Observe}(S_t,O_t)
+y_t=operatorname{Observe}(S_t,O_t)
 $$
 
 $$
-a_t=\operatorname{Policy}(S_t,P_t,M_t,y_t)
+a_t=operatorname{Policy}(S_t,P_t,M_t,y_t)
 $$
 
 $$
@@ -98,7 +98,7 @@ $$
 
 $$
 (M_{t+1},P_{t+1},H_{t+1})
-=\operatorname{Update}(M_t,P_t,H_t,y_t,a_t,y_{t+1})
+=operatorname{Update}(M_t,P_t,H_t,y_t,a_t,y_{t+1})
 $$
 
 The transition kernel \(T\) expresses environmental dynamics and may be unknown; the equations are **schematic research notation**, not an implemented universal algorithm. In multi-agent settings, other agents' actions also influence the transition.
