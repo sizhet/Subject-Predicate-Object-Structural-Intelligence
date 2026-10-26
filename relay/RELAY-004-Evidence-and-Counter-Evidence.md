@@ -248,7 +248,7 @@ Not every system requires all twelve stages at runtime. A minimal research imple
 A conceptual evaluator can be written as:
 
 $$
-D = \operatorname{Adjudicate}(C, E^+, E^-, X, G)
+D = operatorname{Adjudicate}(C, E^+, E^-, X, G)
 $$
 
 where $C$ is a set of claims, $E^+$ supporting evidence, $E^-$ challenges, $X$ context and transformations, and $G$ governance constraints. $D$ may be `accept_provisionally`, `reject`, `request_more_evidence`, `sandbox`, or `abstain`.

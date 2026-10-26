@@ -41,9 +41,9 @@ The Subject Profile is a proposed answer at the interface level. It is designed 
 
 Let a subject profile at time *t* be:
 
-\[
+$$
 SP_t = (I_t, B_t, C_t, G_t, V_t, A_t, E_t, Q_t)
-\]
+$$
 
 where:
 
