@@ -187,7 +187,7 @@ See [CITATION.cff](CITATION.cff) for citation metadata.
 
 License terms are governed by the repository's actual `LICENSE.txt` file. Do not infer a license solely from this README.
 
-DOI: 10.5281/zenodo.23487037
+DOI: 10.5281/zenodo.23675561
 
 ---
 

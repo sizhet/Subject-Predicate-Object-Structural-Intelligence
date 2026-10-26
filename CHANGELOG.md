@@ -71,7 +71,7 @@ These documents are **research proposals**, not ratified standards or proven int
 - **Interface proposals:** drafted; conformance not established.
 - **Experimental results:** none claimed in this release.
 - **External replication:** none claimed in this release.
-- **DOI: 10.5281/zenodo.23487037
+- **DOI: 10.5281/zenodo.23675561
 
 ## Release and attribution notes
 
