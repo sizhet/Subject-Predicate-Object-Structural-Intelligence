@@ -315,4 +315,4 @@ This note draws on the authors' prior open research programs:
 
 **Citation status:** Working paper / directional hypothesis, v0.1.0. A persistent DOI may be added after release; none is claimed here.
 
-**License:** See repository `LICENSEE.txt` (not assumed in this document).
+**License:** See repository `LICENSE.txt` (not assumed in this document).
