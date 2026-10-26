@@ -32,9 +32,9 @@ The roadmap has five objectives:
 
 A candidate SPO system at time *t* can be represented as:
 
-\[
+$$
 \mathcal{I}_t = (S_t, P_t, O_t, M_t, H_t, G_t)
-\]
+$$
 
 - **S**: subject profile, sensor/actuator affordances, goals, authority boundary.
 - **P**: perception, valuation, planning, policy, scoring, and control mechanisms.

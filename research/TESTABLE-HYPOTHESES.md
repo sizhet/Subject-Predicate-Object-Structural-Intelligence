@@ -13,9 +13,9 @@ SPO-SI studies whether explicitly connecting an acting subject, governed intelli
 
 An SPO system is represented provisionally as
 
-\[
+$$
 \mathcal{I}_t=(S_t,P_t,O_t,M_t,H_t,G_t),
-\]
+$$
 
 where **S** denotes the acting subject and its capabilities, **P** its perception–evaluation–planning–action machinery, **O** the environment or target, **M** its world-model state, **H** the evidence/history record, and **G** governance constraints. This is an *engineering decomposition*, not a claim about consciousness or a uniquely correct ontology. Observations and actions couple these components over time.
 
