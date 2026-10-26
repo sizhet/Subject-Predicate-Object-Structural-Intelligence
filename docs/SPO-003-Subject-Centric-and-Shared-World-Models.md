@@ -357,5 +357,5 @@ The central research question is whether such an architecture can make world mod
 - `research/TESTABLE-HYPOTHESES.md` — experimental criteria and baselines.
 - `research/RELATED-WORK.md` — comparisons with established world-model research.
 
-**License:** Refer to the repository's `LICENSEE.txt` file.  
+**License:** Refer to the repository's `LICENSE.txt` file.  
 **Citation:** Refer to the repository's `CITATION.cff` when available.

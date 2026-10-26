@@ -363,4 +363,4 @@ These references are starting points for comparison; a systematic literature rev
 
 **Citation guidance:** Cite the archived release/DOI once available. Before DOI assignment, reference the project title, authors, version, date, and repository URL.
 
-**License:** Refer to the repository's `LICENSEE.txt` file; this note does not independently assert a license.
+**License:** Refer to the repository's `LICENSE.txt` file; this note does not independently assert a license.
