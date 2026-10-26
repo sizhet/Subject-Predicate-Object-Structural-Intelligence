@@ -119,11 +119,27 @@ The canonical PNG files are maintained in
 the `figures/` directory and indexed in
 `FIGURE-INDEX.md`.
 
+```text
+figures/
+├── Fig-001-SPO-SI-Grand-Architecture.png
+├── Fig-002-From-Structural-Components-to-Intelligence-Loops.png
+├── Fig-003-Canonical-SPO-Intelligence-Unit.png
+├── Fig-004-Subject-Centric-and-Shared-World-Models.png
+├── Fig-005-Structural-Relay-and-Interoperability.png
+├── Fig-006-Perspective-Transformation-and-Evidence-Relay.png
+├── Fig-007-Recursive-SPO-and-Governed-Structural-Evolution.png
+└── Fig-008-Open-Intelligence-Relay-and-Collective-Learning.png
+```
+
+## 6. Hypotheses, not conclusions
+
+---
+
 ![Open Intelligence Relay and Collective Learning](figures/Fig-008-Open-Intelligence-Relay-and-Collective-Learning.png)
 
 *Fig-008. Public research as a relay of hypotheses, evidence, counter-evidence, and structural revisions.*
 
-## 6. Hypotheses, not conclusions
+---
 
 The validation program examines nine tentative propositions, including subject-centric model efficiency, dual-world-model robustness, contract-first interoperability, perspective translation, evidence relay, governed revision, recursive composition, uncertainty preservation, and open research relay. See [TESTABLE-HYPOTHESES.md](research/TESTABLE-HYPOTHESES.md) for baselines, metrics, and possible falsifiers.
 
