@@ -51,7 +51,7 @@ $$
 (r, c_A) \xrightarrow{\text{relay}} (\hat r, c_B),
 $$
 
-where *c* denotes the local context and \(\hat r\) is a mapped, possibly lossy interpretation. Recipient *B* must distinguish **what A asserted**, **what transformation occurred**, and **what B accepted**. No transfer should silently imply that B has adopted A's objectives, truth claims, or authority.
+where *c* denotes the local context and $\hat r$ is a mapped, possibly lossy interpretation. Recipient *B* must distinguish **what A asserted**, **what transformation occurred**, and **what B accepted**. No transfer should silently imply that B has adopted A's objectives, truth claims, or authority.
 
 The recipient's loop becomes:
 
@@ -174,7 +174,7 @@ $$
 T_{A\to B}: (r_A, c_A) \mapsto (r_B, c_B, L_{A\to B}),
 $$
 
-where \(L_{A\to B}\) records lost information, added assumptions, and residual ambiguity. Invertibility is **not** presumed. Transformations must preserve traceable source references even when the recipient stores a compressed representation.
+where $L_{A\to B}$ records lost information, added assumptions, and residual ambiguity. Invertibility is **not** presumed. Transformations must preserve traceable source references even when the recipient stores a compressed representation.
 
 ## 7. Relay Lifecycle and Governance Gates
 

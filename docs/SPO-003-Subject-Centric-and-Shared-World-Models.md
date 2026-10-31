@@ -40,7 +40,7 @@ The subject/environment loop and partial observability are well-established rese
 
 ## 2. The SPO Setting
 
-Let an SPO intelligence loop at time \(t\) be represented as
+Let an SPO intelligence loop at time $t$ be represented as
 
 $$
 \mathcal{I}_t = (S_t, P_t, O_t, M_t, H_t, G_t),
@@ -48,26 +48,26 @@ $$
 
 where:
 
-- \(S_t\): subject identity, capabilities, sensor and action boundaries;
-- \(P_t\): predicate intelligence—perception, scoring, planning, policy, and execution mechanisms;
-- \(O_t\): external objects, other subjects, tasks, and environment;
-- \(M_t\): the subject's current world-model state;
-- \(H_t\): observation, action, feedback, and evidence history;
-- \(G_t\): governance constraints, authority, and permitted adaptation.
+- $S_t$: subject identity, capabilities, sensor and action boundaries;
+- $P_t$: predicate intelligence—perception, scoring, planning, policy, and execution mechanisms;
+- $O_t$: external objects, other subjects, tasks, and environment;
+- $M_t$: the subject's current world-model state;
+- $H_t$: observation, action, feedback, and evidence history;
+- $G_t$: governance constraints, authority, and permitted adaptation.
 
-The subject receives observations \(y_t\), forms or updates a belief \(b_t\), selects a permitted action \(a_t\), and observes consequences:
+The subject receives observations $y_t$, forms or updates a belief $b_t$, selects a permitted action $a_t$, and observes consequences:
 
 $$
  y_t \sim p(y_t \mid x_t, S_t), \qquad
- b_t = operatorname{Update}(b_{t-1}, a_{t-1}, y_t),
+ b_t = \mathrm{Update}(b_{t-1}, a_{t-1}, y_t),
 $$
 
 $$
- a_t = operatorname{GovernedPolicy}(b_t, P_t, G_t), \qquad
+ a_t = \mathrm{GovernedPolicy}(b_t, P_t, G_t), \qquad
  x_{t+1} \sim p(x_{t+1}\mid x_t,a_t).
 $$
 
-Here \(x_t\) is an analytical environment state, not necessarily a state that any subject can directly access. This distinction prevents the mistaken identification of a simulator's full state with the agent's own knowledge.
+Here $x_t$ is an analytical environment state, not necessarily a state that any subject can directly access. This distinction prevents the mistaken identification of a simulator's full state with the agent's own knowledge.
 
 ## 3. Subject-Centric World Model (SWM)
 
@@ -90,7 +90,7 @@ $$
  b^{(i)}_{t+1} = F_i\big(b^{(i)}_t, a^{(i)}_t, y^{(i)}_{t+1};\theta_i\big),
 $$
 
-where \(i\) identifies the subject and \(\theta_i\) denotes its modeling assumptions. The superscript matters: two subjects may construct different but rationally useful models of the same situation.
+where $i$ identifies the subject and $\theta_i$ denotes its modeling assumptions. The superscript matters: two subjects may construct different but rationally useful models of the same situation.
 
 ### 3.2 Why selective modeling matters
 
@@ -175,7 +175,7 @@ $$
  T_{i\rightarrow j}: (M_i, C_i) \mapsto (\widehat{M}_j, U_{i\rightarrow j}),
 $$
 
-where \(C_i\) is context and \(U_{i\rightarrow j}\) records uncertainty or information loss. Transformations may cover spatial coordinates, temporal resolution, ontology, units, goal relevance, and authority.
+where $C_i$ is context and $U_{i\rightarrow j}$ records uncertainty or information loss. Transformations may cover spatial coordinates, temporal resolution, ontology, units, goal relevance, and authority.
 
 A transformation is **not guaranteed to be invertible**. For example, a compressed tactical summary cannot necessarily reconstruct raw sensor data. This links perspective transformation to uncertainty-aware folding and unfolding: missing information should be represented as missing, not fabricated.
 
